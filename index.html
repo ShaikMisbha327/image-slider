@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="image" href="slideshow.png">
+    <title>Image Slider</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="image">
+            <img src="./src/debbb3b4ad77d0ee997f60cc4ba67457 (2).gif" alt="">
+        </div>
+        <div class="image">
+          <img src="./src/6515556d91800ea11fe61ee9b5785e98.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="./src/03530a1d810597e2590092896a9bec94.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="./src/62d3eb1ce2bb02add19a50d5524fcc7e.jpg" alt="">
+        </div>
+        <div class="image">
+            <img src="./src/effe28be70c226f31a5d66f305c56dfa.jpg" alt="">
+        </div>
+
+        <div class="button">
+            <a onclick="nextimg(-1)" class="prev">❮</a>
+            <a onclick="nextimg(1)" class="next">❯</a>
+        </div>
+
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
